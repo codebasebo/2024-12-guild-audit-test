@@ -18,6 +18,7 @@ This project should include concepts like:
 
  -  Users can deposit supported ERC20 tokens as collateral.
     Collateral values are assessed using a mock price oracle.
+
     **Borrowing:**
 
  -  Users can borrow supported tokens based on their collateral value.
@@ -45,5 +46,5 @@ This project should include concepts like:
 
 ## Note: 
 - DO NOT COPY AND PASTE AN EXISTING PROTOCOL OR YOU WILL BE DISQUALIFIED. 
-- Write quality tests that you think covers every edge cases.
+- Write quality unit tests that you think covers every edge case.
     
