@@ -18,7 +18,7 @@ git submodule add https://github.com/GuildAudits/2025-Cohort-4-Assessment-Test
 
 
 - Make sure your repo is private
-- Add davidpius95, jaydhales, DevPelz and josh4324 as contributors to this repo so we would have access to examine your submission.
+- Add jaydhales, DevPelz, josh4324 and Enniwealth as contributors to this repo so we would have access to examine your submission.
 
 GOODLUCK !!!!
 
