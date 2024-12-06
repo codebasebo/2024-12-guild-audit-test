@@ -6,10 +6,12 @@ The GuildAudits bootcamp assessment test will assess and establish individualsâ€
 Please follow the processes below to carry out the task and submit correctly.
 
 - Create a Private Repository and name it ```2024-12-guild-audit-test```
+- DO NOT CLONE OR FORK THIS REPOSITORY!
 
 - In your terminal, add this repo as a submodule.
+
 ```sh
-    git submodule add https://github.com/GuildAudits/2025-Cohort-4-Assessment-Test
+git submodule add https://github.com/GuildAudits/2025-Cohort-4-Assessment-Test
 ```
 - Check the README.md file of the each task for detailed instruction.
 - Do all the tasks in each folder.
@@ -18,6 +20,6 @@ Please follow the processes below to carry out the task and submit correctly.
 - Make sure your repo is private
 - Add davidpius95, jaydhales, DevPelz and josh4324 as contributors to this repo so we would have access to examine your submission.
 
-- GOODLUCK !!!!
+GOODLUCK !!!!
 
 

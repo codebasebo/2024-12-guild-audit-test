@@ -1,6 +1,7 @@
 ## Test-2 Auditing
 The goal of this test is to find as many vulnerabilities as you can find in this protocol.
-    i. Create a file named ```findings.txt``` and report the bugs you found. Do not be discouraged if you think it might be complex. Give it your best shot 
+    
+- i. Create a file named ```findings.txt``` and report the bugs you found. Do not be discouraged if you think it might be complex. Give it your best shot. 
 
 
 ## Protocol Description
@@ -75,21 +76,7 @@ e.g ```forge install https://github.com/transmissions11/solmate --no-commit``` .
 **Running Tests:** ``` forge test ```
 
 ## Deployments
-IAM was initially deployed to Ethereum Mainnet, Arbitrum, and Base at the following deterministic deployment addresses:
+IAM will be deployed to Ethereum Mainnet, Arbitrum, and Base.
 
-**PointsFactory:**
-0x19112AdBDAfB465ddF0b57eCC07E68110Ad09c50
-
-**WrappedVaultFactory:**
-0x75E502644284eDf34421f9c355D75DB79e343Bca
-
-**VaultMarketHub:**
-0xa97eCc6Bfda40baf2fdd096dD33e88bd8e769280
-
-**WeirollWallet:**
-0x40a1c08084671E9A799B73853E82308225309Dc0
-
-**RecipeMarketHub:**
-0x783251f103555068c1E9D755f69458f39eD937c0
 
 
