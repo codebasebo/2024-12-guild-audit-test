@@ -77,6 +77,3 @@ e.g ```forge install https://github.com/transmissions11/solmate --no-commit``` .
 
 ## Deployments
 IAM will be deployed to Ethereum Mainnet, Arbitrum, and Base.
-
-
-

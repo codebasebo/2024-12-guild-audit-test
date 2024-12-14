@@ -1,0 +1,65 @@
+SECURITY FINDINGS REPORT
+
+HIGH SEVERITY
+
+1. Reentrancy Vulnerabilities
+- SafeTransferLib usage in token transfers lacks reentrancy guards
+- Critical in RecipeMarketHub.sol when handling multiple token transfers
+- Missing nonReentrant modifiers on key functions
+- IMPACT: Potential fund drainage through reentrancy attacks
+
+2. Access Control & Privilege Escalation
+- Owner has unrestricted ability to modify protocol parameters
+- No timelock on critical parameter changes
+- Missing multi-sig or governance controls
+- IMPACT: Single point of failure, potential for malicious owner actions
+
+3. Oracle Manipulation
+- No price oracle integration for market offers
+- Vulnerable to price manipulation through strategic trading
+- IMPACT: Market manipulation risks
+
+MEDIUM SEVERITY
+
+4. Precision & Rounding Issues
+- Unsafe casting between uint types in fee calculations
+- Potential for precision loss in reward distribution
+- Missing minimum deposit checks
+- IMPACT: Loss of funds through rounding errors
+
+5. Points System Vulnerabilities
+- Flash loan attack vector in Points.sol
+- Missing rate limiting on points minting
+- Unrestricted points transfer functionality
+- IMPACT: Gaming of rewards system
+
+6. ERC4626 Compliance Risks
+- Incomplete validation of vault compliance
+- Missing slippage protection
+- Unsafe assumption of standard behavior
+- IMPACT: Integration failures with non-compliant vaults
+
+LOW SEVERITY
+
+7. Gas Optimization Issues
+- Inefficient storage usage in VaultMarketHub
+- Unoptimized loops in reward distribution
+- IMPACT: High gas costs during peak usage
+
+8. Event Emission Gaps
+- Missing events for critical state changes
+- Incomplete parameter logging
+- IMPACT: Limited off-chain monitoring capability
+
+RECOMMENDATIONS
+
+1. Implement reentrancy guards using OpenZeppelin's ReentrancyGuard
+2. Add timelock for parameter changes
+3. Integrate Chainlink price feeds
+4. Add comprehensive input validation
+5. Implement rate limiting
+6. Add slippage protection
+7. Enhance event logging
+8. Consider implementing emergency pause functionality
+
+Contract-specific details and proof-of-concept examples available upon request.
