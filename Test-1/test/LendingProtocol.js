@@ -35,7 +35,6 @@ describe("LendingProtocol", function () {
     lendingProtocol = await LendingProtocol.deploy(
       priceOracle.address,
       auctionFactory.address,
-      liquidationThreshold,
       owner.address
     );
     await lendingProtocol.deployed();
